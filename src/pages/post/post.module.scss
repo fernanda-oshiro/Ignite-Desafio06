@@ -1,1 +1,42 @@
 // TODO
+
+.post {
+  max-width: 1120px;
+  height: 5rem;
+  margin: 0 auto;
+  padding: 0 2rem;
+
+  display: block;
+  align-items: center;
+
+  h1 {
+    padding-top: 3rem;
+    font-weight: bold;
+    font-size: 3.5rem;
+  }
+
+  .icon {
+    margin-right: 0.5rem;
+  }
+
+  span,
+  time {
+    margin-right: 1rem;
+  }
+}
+
+.img {
+  width: 100%;
+}
+
+.article {
+  h1 {
+    padding: 2rem 0;
+    font-weight: bold;
+    font-size: 2.5rem;
+  }
+
+  body {
+    font-size: 2rem;
+  }
+}

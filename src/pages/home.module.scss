@@ -1,1 +1,41 @@
 // TODO
+
+.posts {
+  max-width: 1120px;
+  height: 5rem;
+  margin: 0 auto;
+  padding: 0 2rem;
+
+  display: block;
+  align-items: center;
+
+  a {
+    margin-top: 3rem;
+    display: block;
+  }
+
+  P {
+    margin-top: 1rem;
+  }
+
+  .icon,
+  time {
+    margin-top: 1rem;
+  }
+
+  .icon {
+    margin-right: 0.5rem;
+  }
+
+  time {
+    margin-right: 1rem;
+  }
+}
+
+.loadingButton {
+  background-color: transparent;
+  border: none;
+  color: var(--pink-500);
+  font-weight: 600;
+  margin-top: 3rem;
+}
