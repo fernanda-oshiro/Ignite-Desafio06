@@ -23,6 +23,11 @@
   time {
     margin-right: 1rem;
   }
+
+  .edit {
+    padding: 1rem 0 2rem;
+    font-style: italic;
+  }
 }
 
 .img {
@@ -30,6 +35,8 @@
 }
 
 .article {
+  padding-bottom: 3rem;
+
   h1 {
     padding: 2rem 0;
     font-weight: bold;
@@ -38,5 +45,35 @@
 
   body {
     font-size: 2rem;
+  }
+}
+
+.navigation {
+  border-top: 1px solid var(--gray-300);
+  padding: 3rem 0 5rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-direction: row;
+
+  h3 {
+    font-weight: 400;
+  }
+
+  a {
+    font-weight: 600;
+    font-size: 1rem;
+    line-height: 1.1875rem;
+    letter-spacing: -0.5px;
+    color: var(--pink-500);
+
+    transition: filter 0.2s;
+
+    &:hover {
+      filter: brightness(0.8);
+    }
+  }
+  div + div {
+    text-align: right;
   }
 }

@@ -1,1 +1,25 @@
 // TODO
+
+.preview {
+  width: 100%;
+  height: 3.625rem;
+
+  display: block;
+  background: var(--gray-100);
+  border-radius: 4px;
+
+  font-size: 1.125rem;
+  line-height: 1.375rem;
+  font-weight: 600;
+  color: var(--gray-900);
+  text-align: center;
+  padding: 1rem;
+
+  margin: 5rem 0;
+
+  transition: filter 0.2s;
+
+  &:hover {
+    filter: brightness(0.8);
+  }
+}
